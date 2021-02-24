@@ -15,7 +15,7 @@
 
     <style type="text/css" class="silex-style"></style>
     <script type="text/javascript" class="silex-script"></script>
-    <style class="silex-inline-styles" type="text/css">.body-initial {background-color: rgba(255,255,255,1); position: static;}.silex-id-1478366444112-1 {background-color: transparent; position: static; margin-top: -1px;}.silex-id-1478366444112-0 {background-color: transparent; min-height: 100px; position: relative; margin-left: auto; margin-right: auto;}.silex-id-1474394621033-3 {position: static; margin-top: -1px;}.silex-id-1474394621032-2 {background-color: transparent; min-height: 600px; position: relative; margin-left: auto; margin-right: auto;}.silex-id-1478366450713-3 {background-color: transparent; position: static; margin-top: -1px;}.silex-id-1478366450713-2 {background-color: transparent; min-height: 100px; position: relative; margin-left: auto; margin-right: auto;}.silex-id-1442914737143-3 {width: 241px; top: 26px; left: 494px; min-height: 51px; position: absolute;}.silex-id-1614181421379-2 {width: 460.1335144042969px; min-height: 231.24148559570312px; background-color: rgb(255, 255, 255); position: absolute; top: 64px; left: 97px;}@media only screen and (max-width: 480px) {}</style>
+    <style class="silex-inline-styles" type="text/css">.body-initial {background-color: rgba(255,255,255,1); position: static;}.silex-id-1478366444112-1 {background-color: transparent; position: static; margin-top: -1px;}.silex-id-1478366444112-0 {background-color: transparent; min-height: 100px; position: relative; margin-left: auto; margin-right: auto;}.silex-id-1474394621033-3 {position: static; margin-top: -1px;}.silex-id-1474394621032-2 {background-color: transparent; min-height: 600px; position: relative; margin-left: auto; margin-right: auto;}.silex-id-1478366450713-3 {background-color: transparent; position: static; margin-top: -1px;}.silex-id-1478366450713-2 {background-color: transparent; min-height: 100px; position: relative; margin-left: auto; margin-right: auto;}.silex-id-1442914737143-3 {width: 241px; top: 26px; left: 494px; min-height: 51px; position: absolute;}.silex-id-1614181421379-2 {width: 464px; min-height: 124px; background-color: rgb(255, 255, 255); position: absolute; top: -1.0142059326171875px; left: -0.9432907104492188px;}.silex-id-1614181900637-3 {width: 674px; min-height: 251px; background-color: rgb(255, 255, 255); position: absolute; top: 146.00568389892578px; left: -0.5142059326171875px;}.silex-id-1614183320662-4 {width: 651px; min-height: 27px; background-color: rgb(255, 255, 255); position: absolute; top: 403.6391906738281px; left: -0.05686187744140625px;}@media only screen and (max-width: 480px) {}</style>
     <title></title>
     
 
@@ -64,7 +64,33 @@
 
 <!-- Always wrap checkbox and radio inputs in a label and use a <span class="label-body"> inside of it -->
 
-<!-- Note: The class .u-full-width is just a utility class shorthand for width: 100% --></div></div></div>
+<!-- Note: The class .u-full-width is just a utility class shorthand for width: 100% --></div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1614181900637-3 page-page-1 paged-element" data-silex-id="silex-id-1614181900637-3" style=""><div class="silex-element-content">
+
+
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+
+</div></div><div data-silex-type="html-element" class="editable-style html-element silex-id-1614183320662-4 page-page-1 paged-element" data-silex-id="silex-id-1614183320662-4" style=""><div class="silex-element-content">
+												<input name="type_voyage" type="radio" id="type_voyage_aller" value="1" class="validate[required]" checked="checked"><label for="type_voyage_aller">Aller simple</label>  
+												<input name="type_voyage" type="radio" id="type_voyage_aller_retour" value="0" class="validate[required]"><label for="type_voyage_aller_retour">Aller/Retour</label>
+												<input name="type_voyage" type="radio" id="type_voyage_circuit" value="0" class="validate[required]"><label for="type_voyage_circuit">Circuit</label>
+											
+									
+											Nb. de participants
+												<input name="nb_personne" type="text" class="validate[required] Lmini champA Infos" id="nb_personne" size="2">
+											
+										</div></div></div>
     </section>
     <section data-silex-type="container-element" class="container-element editable-style silex-id-1478366450713-3 section-element prevent-resizable" data-silex-id="silex-id-1478366450713-3" style="">
         <div data-silex-type="container-element" class="editable-style silex-element-content silex-id-1478366450713-2 container-element website-width" data-silex-id="silex-id-1478366450713-2">
